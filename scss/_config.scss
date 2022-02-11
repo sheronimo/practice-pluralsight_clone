@@ -14,3 +14,10 @@ $clr-neutral-lighter: #ccc;
 $clr-neutral-lightest: #f4f4f4;
 
 $breakpoint-xl: 1200px;
+$breakpoint-md: 768px;
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
