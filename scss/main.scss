@@ -59,6 +59,33 @@ a {
 				height: auto;
 			}
 		}
+
+		&-form {
+			width: 80%;
+			padding-bottom: 3rem;
+
+			.form {
+				&-group {
+				}
+
+				&-label {
+					font-size: 0.9rem;
+					line-height: 2rem;
+					font-weight: 500;
+				}
+
+				&-input {
+					margin-bottom: 1.3rem;
+					width: 100%;
+					background: $clr-neutral-dark;
+					border-radius: 2px;
+					border: 1px solid $clr-neutral-light;
+					color: $clr-neutral-lighter;
+					padding: 0.5rem 1rem;
+					line-height: 1.3rem;
+				}
+			}
+		}
 	}
 }
 
