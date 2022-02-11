@@ -1,3 +1,35 @@
+// Text Utilities
 .text-center {
 	text-align: center;
+}
+
+// Buttons
+%btn-shared {
+	padding: 0.7rem 1rem;
+	cursor: pointer;
+	border: 0;
+	border-radius: 2px;
+	font-weight: 500;
+	transition: background 0.5s;
+	display: block;
+}
+
+.btn {
+	&-primary {
+		@extend %btn-shared;
+		background: $clr-primary;
+		color: $clr-secondary;
+
+		&:hover {
+			background: $clr-primary-hov;
+		}
+	}
+
+	&-secondary {
+		@extend %btn-shared;
+	}
+
+	&-block {
+		width: 100%;
+	}
 }
