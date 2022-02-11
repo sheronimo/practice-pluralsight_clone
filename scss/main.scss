@@ -88,9 +88,27 @@ a {
 			display: flex;
 			flex-direction: column;
 			justify-content: center;
-			align-items: center;
 			gap: 1rem;
 			font-size: 0.9rem;
+		}
+
+		.or {
+			display: flex;
+			flex-direction: row;
+			align-items: center;
+			margin: 1.2rem 0;
+
+			&-text {
+				color: $clr-neutral-lighter;
+				padding: 0 0.8rem;
+			}
+
+			.bar {
+				flex: auto;
+				border: none;
+				height: 1px;
+				background: $clr-neutral-light;
+			}
 		}
 	}
 }

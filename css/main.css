@@ -158,11 +158,36 @@ a {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  gap: 1rem;
+  font-size: 0.9rem;
+}
+
+.left .login .or {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 1rem;
-  font-size: 0.9rem;
+  margin: 1.2rem 0;
+}
+
+.left .login .or-text {
+  color: #ccc;
+  padding: 0 0.8rem;
+}
+
+.left .login .or .bar {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  border: none;
+  height: 1px;
+  background: #555;
 }
 
 .right {
