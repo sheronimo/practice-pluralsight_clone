@@ -257,4 +257,28 @@ a {
             flex: 6;
   }
 }
+
+@media (max-width: 768px) {
+  body {
+    overflow: auto;
+  }
+  .left {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    margin-top: 4vh;
+  }
+  .left .login .logo {
+    margin-bottom: 2vh;
+  }
+  .left .login-form .form-input {
+    margin-bottom: 0.7rem;
+  }
+  .left .footer {
+    padding-top: 3rem;
+  }
+  .right {
+    display: none;
+  }
+}
 /*# sourceMappingURL=main.css.map */

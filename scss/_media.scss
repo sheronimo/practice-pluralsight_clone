@@ -7,3 +7,36 @@
 		flex: 6;
 	}
 }
+
+@media (max-width: $breakpoint-md) {
+	body {
+		overflow: auto;
+	}
+
+	.left {
+		justify-content: start;
+		margin-top: 4vh;
+
+		.login {
+			.logo {
+				margin-bottom: 2vh;
+			}
+
+			&-form {
+				.form {
+					&-input {
+						margin-bottom: 0.7rem;
+					}
+				}
+			}
+		}
+
+		.footer {
+			padding-top: 3rem;
+		}
+	}
+
+	.right {
+		display: none;
+	}
+}
