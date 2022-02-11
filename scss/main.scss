@@ -50,6 +50,15 @@ a {
 		align-items: center;
 		width: 80%;
 		padding-bottom: 1rem;
+
+		.logo {
+			margin-bottom: 8vh;
+
+			&-img {
+				width: 300px;
+				height: auto;
+			}
+		}
 	}
 }
 

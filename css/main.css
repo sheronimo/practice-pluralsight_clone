@@ -78,6 +78,15 @@ a {
   padding-bottom: 1rem;
 }
 
+.left .login .logo {
+  margin-bottom: 8vh;
+}
+
+.left .login .logo-img {
+  width: 300px;
+  height: auto;
+}
+
 .right {
   -webkit-box-flex: 1;
       -ms-flex: 1;
