@@ -51,6 +51,7 @@ a {
 		width: 80%;
 		padding-bottom: 1rem;
 
+		// Logo
 		.logo {
 			margin-bottom: 8vh;
 
@@ -60,6 +61,7 @@ a {
 			}
 		}
 
+		// Login Form
 		&-form {
 			width: 80%;
 			padding-bottom: 3rem;
@@ -84,6 +86,7 @@ a {
 			}
 		}
 
+		// Alternate links
 		.links {
 			display: flex;
 			flex-direction: column;
@@ -92,6 +95,7 @@ a {
 			font-size: 0.9rem;
 		}
 
+		// Or part
 		.or {
 			display: flex;
 			flex-direction: row;
@@ -108,6 +112,26 @@ a {
 				border: none;
 				height: 1px;
 				background: $clr-neutral-light;
+			}
+		}
+	}
+
+	// Footer
+	.footer {
+		max-width: 80%;
+		padding-top: 5rem;
+		font-size: 0.8rem;
+
+		.copyright {
+			color: $clr-neutral-light;
+		}
+
+		&-link {
+			color: $clr-primary;
+			text-decoration: underline;
+
+			&:hover {
+				text-decoration: none;
 			}
 		}
 	}

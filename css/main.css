@@ -190,6 +190,25 @@ a {
   background: #555;
 }
 
+.left .footer {
+  max-width: 80%;
+  padding-top: 5rem;
+  font-size: 0.8rem;
+}
+
+.left .footer .copyright {
+  color: #555;
+}
+
+.left .footer-link {
+  color: #f96816;
+  text-decoration: underline;
+}
+
+.left .footer-link:hover {
+  text-decoration: none;
+}
+
 .right {
   -webkit-box-flex: 1;
       -ms-flex: 1;
