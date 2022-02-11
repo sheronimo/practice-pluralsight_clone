@@ -114,4 +114,17 @@ a {
       -ms-flex: 1;
           flex: 1;
 }
+
+@media (min-width: 1200px) {
+  .left {
+    -webkit-box-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+  }
+  .right {
+    -webkit-box-flex: 6;
+        -ms-flex: 6;
+            flex: 6;
+  }
+}
 /*# sourceMappingURL=main.css.map */

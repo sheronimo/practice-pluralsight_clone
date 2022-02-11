@@ -1,0 +1,9 @@
+@media (min-width: $breakpoint-xl) {
+	.left {
+		flex: 4;
+	}
+
+	.right {
+		flex: 6;
+	}
+}
